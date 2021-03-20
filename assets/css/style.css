@@ -1,0 +1,403 @@
+
+{
+    margin: 0px;;
+    padding: 0px;
+   
+}
+
+@import url(assets/img/sublimacion.jpg);
+@import url(assets/img/promotional items.jpg);
+@import url(assets/img/serigraph1.jpg);
+
+
+/*----Navigation----*/
+.carousel {
+    padding:0px;
+    
+}
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index:1;
+    width:100 px;
+    margin-top: 0px;
+    min-height: 20px;
+
+}
+#navbarNav{
+    width:100px;
+    left:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    display:flex;
+   
+}
+
+.navbar-brand img{
+    inline-size: 16rem;
+}
+    
+}
+.navbar-brand img{
+    height: 10px;
+    padding-left:100px;
+
+
+}
+.navbar-nav li
+{
+    padding:0 5px;
+   
+  
+
+}
+.navbar-nav li a{
+    float:right;
+    text-align:left;
+    font-size: 1.40em;
+ 
+}
+  
+#nav-bar ul li a:hover{
+    color:#fff!important;
+    background-color:#2362a1;
+    transition: .9s;
+}
+
+.navbar{
+    background: #fff;
+}
+.navbar-toogler{
+    border:none!important;
+
+}
+.nav-link{
+    color:#000!important;
+    font-weight:800 px;
+    font-size: 16px;
+}
+/*-----banner below-----*/
+
+.banner-area1{
+    text-align:center; 
+    background-color:#006ba1;;
+  justify-content: center;
+  align-items: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ position: relative;
+ margin-bottom: 0px;
+
+}
+
+  
+.banner-area1 h1{
+    text-align: center;
+    font-size:35px;
+    color:#fff;
+    z-index:10;
+    position:relative;
+}
+
+
+.banner-area1 h2{
+    text-align: center;
+    font: size 30px;
+    color:#fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+header{
+    height:100px;
+    width:100%;
+    z-index:12;
+ 
+}
+/*-----typewriteemotions----*/
+.banner-area1 h2{
+    color: #fff'
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    border-right: 0.15em;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation:typing 4s steps(15, end),blink-caret .5s;
+   
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+        from, to { border-color: transparent }
+        20% { border-color: white}
+
+}
+
+/*------About-------*/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#555;
+
+}
+
+#about .btn{
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.about-content{
+    padding-top:20px
+}
+
+/*-----button----*/
+button{
+   width:180px;
+   color:#000;
+   font-size:12px;
+   padding:12px 0;
+   background:#fff;
+   border:0;
+   border-radius:20px;
+   outline:none;
+   margin-top:30px;
+}
+/*servicios---*/
+.card{
+    width:200px;
+    height:230px;
+    display:inline-block;
+    border-radius:10px;
+    padding:15px 25px;
+    cursor:pointer;
+    margin:10px 15px;
+    box-sizing:border-box;
+    background-position:center;
+    background-size: cover;
+    transition: transform 0.5;
+}
+.col-4v{
+    position:relative;
+  width:1700px;
+  height:20px;
+    margin:20px auto;
+    flex-wrap:wrap;
+    align-items: center;
+   margin-top:10px;
+  flex-direction: row;
+
+}
+
+
+.col-4v .card{
+    position: relative;
+    width: 300px;
+    height:250px;
+    float:left;
+    margin:20px;
+    box-sizing:border-box;
+    overflow:hidden;
+    border-radius:10px;
+    display: inline-block;
+ 
+    
+}
+.col-4v .card .img1{
+position:relative;
+overflow:hidden;
+}
+.col-4v .card .img1 img{
+    max-width:300px;
+    height:300px;
+    transition:transform 2s;
+}
+.col-4v .card:hover .img1 img{
+    transform: scale(1.2);
+}
+
+.col-4v .card .details{
+    position:absolute;
+    top: 20px;
+    left:20px;
+    bottom:20px;
+    right:20px;
+    background:rgba(0,0,0,.3);
+    transform:scaleY(0);
+    transition:transform .5s;
+}
+.col-4v .card:hover .details{
+    transform:scaleY(1);
+}
+.col-4v .card .details .content{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+text-align:center;
+padding:15px;
+color:#fff;
+}
+.title h3{
+    margin-bottom:4%;
+    color:#000;
+    text-align: center;
+}
+.details h5{
+    color:#fff;
+    font-size:20px;
+    margin: 0;;
+    padding: 0;
+    
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+/*--clasificacion----*/
+
+.container1{
+    margin-top: 10px;
+    width: 1890px;
+    margin:300px auto;
+    display:inline-block;
+    flex-direction:row;
+    flex-wrap:wrap;
+   
+
+}
+.container h3{
+    margin-bottom:5%;
+    color:#000;
+}
+.container1 h3{
+    text-align: center;
+}
+
+
+.details .content h3{
+text-align: center;
+
+}
+
+.box{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction;
+    align-items:center;
+    justify-content: center;
+    
+    
+}
+   /* display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:-o-flex;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:1280px;
+    height:auto;
+}
+   
+   /* display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 1280px;
+    height:auto;
+    flex-wrap: wrap;
+    float:left; */
+    
+
+
+.imgBox{
+    overflow:hidden;
+    position:relative;
+    width:400px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0,0.6);
+    margin-right: 3%;  
+}
+    
+   
+  
+   
+
+.imgBox img{
+    
+    width:400px;
+    height:350px;
+    vertical-align:top;
+    object-fit:cover;
+    transform:scale(1);
+    transition:transform 2s;
+   
+  
+}
+.imgBox img:hover{
+    transform:scale(1.3);
+}
+
+.container1 .box{
+    position:relative;
+    width: 400px;
+    height:300px;
+    background:#007cba;
+    margin:10px;
+    margin-left: 50px;
+    box-sizing:border-box;
+    display:inline-block;
+    
+
+}
+.container1 .box .imgBox{
+    position:relative;
+    overflow:hidden;
+}
+.container1 .box .imgBox img{
+    max-width:100%;
+    transition:transform 2s;
+    width:100%;
+    
+}
+
+.container1 .box:hover .imgBox img{
+    transform:scale(1.2);
+}
+.container1 .box .details{
+    position:absolute;
+    top: 2px;
+    left:10px;
+    bottom:250px;
+    right:10px;
+    
+
+}
+.container1 .box .details .content{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    padding:15px;
+    color:#000;
+}
+    
+    .padre{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .col-4v{
+        width: 30% !important;
+    }
+
+    .col-4v .img1{
+        width: 100%;
+    }
+
+    .col-4v .img1 img{
+        width: 100%;
+    }
